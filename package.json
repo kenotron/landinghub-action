@@ -1,0 +1,29 @@
+{
+  "name": "landinghub-action",
+  "version": "1.0.0",
+  "description": "Generates a landinghub page and publishes it for you",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actions/hello-world-javascript-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actions/hello-world-javascript-action/issues"
+  },
+  "homepage": "https://github.com/actions/hello-world-javascript-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "@actions/github": "^1.1.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.27.0",
+    "typescript": "^4.1.5"
+  }
+}
